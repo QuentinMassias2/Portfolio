@@ -21,9 +21,9 @@
           <li><a href="index.html">Profil</a></li>
 
           <li><a href="Entreprise.html">Entreprise</a></li>
-       
+      
           <li><a href="btssio.html">BTS SIO</a></li>
-         
+    
           <li><a href="VeilleTechnologique.html">Veille technologique</a></li>
 
           <li><a href="ÉpreuveE5.html">Épreuve E5</a></li>
@@ -161,28 +161,56 @@
       <br>
       <h6 class="heading"><center>Épreuve E6 - ADMINISTRATION DES SYSTEMES ET DES RESEAUX</center></h6>
       <br>
-      <h6 class="heading"><center>OBJECTIF </center></h6>
-      <p> Cette épreuve vise à évaluer chez la personne candidate l’acquisition des compétences décrites dans le bloc de compétences « Administration des systèmes et des réseaux » propre à l’option « Solutions d’infrastructure, systèmes et réseaux », à savoir :
-        <br><br>
+      <h6 class="heading"><center>  QU'EST-CE QUE L'ÉPREUVE E6 ? </center></h6><br>
+      Cette épreuve a pour but d’évaluer les compétences clés en administration des systèmes et des réseaux, propres à l’option SISR du BTS SIO. Le candidat doit être capable de concevoir, déployer, exploiter et superviser une infrastructure réseau adaptée aux besoins d’une organisation.
+      <br><br>
+      L’évaluation s’appuie sur deux projets professionnels issus du dossier du candidat, et se déroule sous forme d’une épreuve pratique et orale de 40 minutes, précédée d’1h30 de préparation. Elle se divise en deux phases :
+      <br><br>
+      <b>• une première centrée sur l’analyse des besoins et la proposition de solutions,<br><br>
+      • une seconde dédiée à la mise en œuvre technique d’une solution.<br><br></b>
+      Cette épreuve permet de vérifier la capacité du candidat à mobiliser ses compétences techniques, sa méthodologie et sa capacité à justifier ses choix face à un jury.
+            <br>
+            <br>
+            <br>
+            <h6 class="heading"><center>PROJET N°1 </center></h6>
+            <p><center><b>Création et intégration d'un nouveau groupe d'utilisateur dans l'Active Directory</b></center><br><br>
 
-        - concevoir une solution d’infrastructure réseau<br>
-        - installer, tester et déployer une solution d’infrastructure réseau<br>
-        - exploiter, dépanner et superviser une infrastructure réseau</p>
-        <br><br>
-        <h6 class="heading"><center>CRITERES D'EVALUATION </center></h6>
-        <p>L’épreuve prend appui sur deux réalisations professionnelles composant le dossier remis par la personne candidate. Ces réalisations professionnelles mobilisent les ressources décrites dans le référentiel de certification pour le bloc « Administration des systèmes et des réseaux ».</p>
-        <br><br>
-        <h6 class="heading"><center>MODALITÉS D'EVALUATION</center></h6>
+              L’Active Directory est un annuaire LDAP (Lightweight Directory Access Protocol) pour les systèmes d’exploitation Windows.
+              Cet annuaire contient différents objets, de différents types (utilisateurs, ordinateurs, etc.)<br><br>
+              L’objectif étant de centraliser deux fonctionnalités essentielles : l’identification et l’authentification au sein système d’information.<br><br>
+              <b>Les intérêts d’un annuaire sont:</b><br><br>
+              
+              • Administration centralisée et simplifiée<br><br>
+              
+              • Unifier l’authentification<br><br>
+              
+              • Identifier les objets sur le réseau <br><br>
+              
+              • Référencer les utilisateurs et ordinateurs </p>
+              <br>
+            <u><b><a href="images/GLPI.pdf" target="_blank"> <p> SITUATION PROFESSIONNELLE </p></a></u></b>
         <br>
-        <p><b>Forme ponctuelle pratique et orale : 40 min (+1h30 de préparation) :</b></p>
+        
         <br>
-        <p><u>Phase 1 – préparation de 30 minutes suivie d’un entretien de 20 minutes maximum : </u><br><br>
-          Sur la base d’une expression de besoins remise à la personne candidate et étudiée pendant le premier temps de préparation, la commission d’évaluation conduit un entretien qui permet à la personne candidate d'analyser les besoins de l'organisation, de proposer des solutions adaptées, de justifier ses choix et de répondre aux questions du jury concernant son approche et sa méthodologie de travail.</p>
-          <br> <br>
-          <p><u>Phase 2 – préparation d’une heure suivie d’un entretien de 20 minutes maximum :</u></p><br>
-          <p>Le deuxième temps de préparation permet à la personne candidate de réaliser, en autonomie et de manière individuelle, la solution attendue en ayant recours à l’environnement de travail disponible dans le centre d’interrogation. Au terme de la préparation, la commission procède à la recette de la solution et mène un entretien d’explicitation.
+        <h6 class="heading"><center>PROJET N°2 </center></h6>
+        <p><center><b>Mise en place d’une solution de redondance, de tolérance de panne et d’équilibrage de charge pour les éléments d’interconnexion (HSRP)</b></center><br>
+
+          HSRP (Hot Standby Router Protocol) est un protocole utilisé dans les réseaux informatiques pour fournir une redondance de passerelle par défaut.
+          Il permet à plusieurs routeurs de travailler ensemble de manière à assurer une continuité de service en cas de défaillance d'un routeur principal.<br><br>
+          Les principales caractéristiques de ce projet sont :<br><br>
+          
+          <u><b>Redondance de passerelle par défaut :</b></u> HSRP permet de configurer un routeur actif et un ou plusieurs routeurs de secours qui se tiennent prêts à prendre le relais en cas de panne. Cela garantit une disponibilité élevée du réseau et une continuité des opérations en cas de défaillance matérielle.<br><br>
+          
+          <u><b>Tolérance de panne :</b></u> En cas de défaillance d'un routeur principal, HSRP assure une transition transparente vers un routeur de secours, minimisant ainsi les interruptions de service et les temps d'arrêt. Cela garantit la fiabilité du réseau et maintient la productivité des utilisateurs.<br><br>
+          
+          <u><b>Équilibrage de charge :</b></u> Outre la redondance, HSRP permet également de répartir la charge entre plusieurs routeurs actifs, assurant ainsi une utilisation efficace des ressources réseau. Cela permet de prévenir la congestion du trafic et d'optimiser les performances du réseau.<br><br>
+          
+          En mettant en place une solution HSRP, l'infrastructure réseau bénéficie d'une meilleure disponibilité, d'une résilience accrue aux pannes et d'une utilisation plus efficace des ressources, contribuant ainsi à une expérience utilisateur optimale et à une productivité accrue. informatiques.</p><br>
+            <u><b><a href="images/HSRP.pdf" target="_blank"> <p> SITUATION PROFESSIONNELLE</p>
+            </a></u>
             <br>
-            <br>
+        </b>
+        <br>
           </p>
     </div>
 </div>
@@ -250,6 +278,6 @@
     popup.classList.toggle("show");
   }
   </script>
- 
+
 </body>
 </html>
